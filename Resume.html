@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Daniel Chu - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
             color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #252c94;
             color: white;
             text-align: center;
             padding: 1rem 0;
@@ -26,13 +26,13 @@
             margin-bottom: 30px;
         }
         h2 {
-            color: #4CAF50;
+            color: #252c94;
         }
         .section-title {
             font-weight: bold;
             margin-bottom: 5px;
         }
-        .contact-info, .experience, .education, .skills, .projects {
+        .card {
             padding: 10px;
             background-color: #fff;
             border-radius: 5px;
@@ -55,70 +55,85 @@
 <body>
 
 <header>
-    <h1>Your Name</h1>
-    <p>Position or Job Title</p>
+    <h1>Daniel Chu</h1>
+    <p>Software Development Student</p>
 </header>
 
 <div class="container">
-    <section class="contact-info">
+    <section class="contact-info card">
         <h2>Contact Information</h2>
-        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Website: <a href="https://www.yourwebsite.com" target="_blank">www.yourwebsite.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn Profile</a></p>
+        <p>Email: <a href="mailto:danielchu36@live.ca">danielchu36@live.ca</a></p>
+        <p>Phone: 403-708-7536</p>
+        <p>Address: 462 Kincora Dr NW, Calgary, AB T3R 1N4</p>
     </section>
 
-    <section class="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <div class="section-title">Job Title - Company Name</div>
-            <p>Duration: Month Year - Month Year</p>
-            <p>Description of your responsibilities and achievements at this job.</p>
-        </div>
-        <div class="experience-item">
-            <div class="section-title">Previous Job Title - Previous Company</div>
-            <p>Duration: Month Year - Month Year</p>
-            <p>Description of your responsibilities and achievements at this job.</p>
-        </div>
+    <section class="objective card">
+        <h2>Objective</h2>
+        <p>I am a motivated and detail-oriented Software Development student currently studying at SAIT. I have experience with Python, C#, HTML/CSS, JavaScript, and am currently learning Java and React Native in my 3rd semester. I am eager to apply the knowledge I’ve learned in school and to develop my skills as a programmer while gaining hands-on experience in the industry.</p>
     </section>
 
-    <section class="education">
-        <h2>Education</h2>
-        <div class="education-item">
-            <div class="section-title">Degree - School Name</div>
-            <p>Graduation Date: Month Year</p>
-            <p>Description of your studies, major, or any notable achievements.</p>
-        </div>
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
+    <section class="technical-skills card">
+        <h2>Technical Skills</h2>
         <ul>
-            <li>Programming Language 1</li>
-            <li>Programming Language 2</li>
-            <li>Tool/Technology 1</li>
-            <li>Tool/Technology 2</li>
-            <li>Soft Skill 1</li>
-            <li>Soft Skill 2</li>
+            <li>Programming Languages: Python, C#, HTML/CSS, JavaScript</li>
+            <li>Frameworks: React Native, Node.js</li>
+            <li>Databases: SQL</li>
+            <li>Other Skills: Object-Oriented Programming</li>
         </ul>
     </section>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <div class="section-title">Project Name</div>
-            <p>Description of your project, technologies used, and any key outcomes.</p>
+    <section class="leadership-skills card">
+        <h2>Leadership Skills</h2>
+        <ul>
+            <li>Organized and ran competitions at the University of Alberta Badminton Club</li>
+            <li>Assisted Korean language instructors teaching Korean to Korea 102 students</li>
+        </ul>
+    </section>
+
+    <section class="extracurricular card">
+        <h2>Extracurricular Activities</h2>
+        <ul>
+            <li>Currently a member of the Trojans Badminton team</li>
+            <li>Hobby woodworker and furniture builder</li>
+        </ul>
+    </section>
+
+    <section class="education card">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="section-title">2024 – Present: Software Development Diploma</div>
+            <p>Southern Alberta Institute of Technology (SAIT), Calgary, Alberta</p>
+            <p>Two-year program</p>
         </div>
-        <div class="project-item">
-            <div class="section-title">Another Project</div>
-            <p>Description of your project, technologies used, and any key outcomes.</p>
+        <div class="education-item">
+            <div class="section-title">2015 – 2022: Bachelor of Science</div>
+            <p>University of Alberta</p>
+            <p>Major in Biological Sciences / Minor in East Asian Studies</p>
+            <ul>
+                <li>Undergraduate cell biology research during final year</li>
+                <li>Vice President of the University of Alberta Badminton Club (2018 – 2019)</li>
+                <li>Korea 102 teaching assistant during 2018</li>
+            </ul>
         </div>
     </section>
-</div>
 
-<footer>
-    <p>&copy; 2025 Your Name</p>
-</footer>
+    <section class="experience card">
+        <h2>Work Experience</h2>
+        <div class="experience-item">
+            <div class="section-title">2023 – 2024: Tire Installer – Costco Wholesale</div>
+            <p>• Installed and replaced tires for Costco members</p>
+            <p>• Documented condition of tires and vehicles</p>
+            <p>• Explained service documentation to Costco members</p>
+            <p>• Explained technical specifications of tires and warranty details to Costco members</p>
+        </div>
+        <div class="experience-item">
+            <div class="section-title">2020 – 2021: Senior Instructor – DriveSports Badminton</div>
+            <p>• Led lessons and fitness sessions in Calgary</p>
+            <p>• Sparred with intermediate and beginner-level players</p>
+            <p>• Taught students proper form and technique</p>
+        </div>
+    </section>
 
-</body>
-</html>
+    <section class="references card">
+        <h2>References</h2>
+        <p>References available upon request</p>
